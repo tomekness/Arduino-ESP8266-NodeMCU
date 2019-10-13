@@ -1,5 +1,5 @@
 /*
- *  Button Input - local Server - simple example
+ *  Button Input - EasyIotCloud - simple example
  *  ---------------------------------------------------
  *
  * Using onboard button input (D3 / GPIO 0) sending a button pressed to EasyIotCloud https://easyiot-cloud.com/ 
