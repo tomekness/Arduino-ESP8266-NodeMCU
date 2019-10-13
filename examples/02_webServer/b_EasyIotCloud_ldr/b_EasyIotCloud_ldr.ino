@@ -1,8 +1,8 @@
 /*
- *  Button Input - local Server - simple example
- *  ---------------------------------------------------
+ *  ldr (light sensor) Input - EasyIotCloud - simple example
+ *  ----------------------------------------------------------
  *
- * Using onboard button input (D3 / GPIO 0) sending a button pressed to EasyIotCloud https://easyiot-cloud.com/ 
+ * Sending value of the analogInput pin (ADC / A0) to EasyIotCloud https://easyiot-cloud.com/ 
  *
  * for NodeMCU ESP8266 | autumn 2019 | tomek n. (https://cirg.io) for ixd course
  * based on the example by Igor Jarc http://iot-playground.com
