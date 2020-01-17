@@ -71,6 +71,11 @@ reading the onboard button input (D3 / GPIO 0) and sending »button pressed« to
 
 ![easyIOT-cloud website showing a button recording](https://raw.githubusercontent.com/cirg-io/Arduino-ESP8266-NodeMCU/master/images/sampleData_button.png)
 
+if you want to use an external button and led you can set it up as following: 
+
+![button + led scematic](https://raw.githubusercontent.com/cirg-io/Arduino-ESP8266-NodeMCU/master/images/button+led_2.png)
+
+![button + led breadboard](https://raw.githubusercontent.com/cirg-io/Arduino-ESP8266-NodeMCU/master/images/button+led.png)
 
 ### b_EasyIotCloud_ldr
 Sending value of the analogInput pin (ADC / A0) to EasyIotCloud https://easyiot-cloud.com/--> sending LDR sensor value to a web server
