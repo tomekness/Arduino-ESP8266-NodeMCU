@@ -9,7 +9,8 @@ We also recommend checking out the following links to get you into it:
 
 * Quick Start to NodeMCU (ESP8266) on Arduino IDE https://www.instructables.com/id/Quick-Start-to-Nodemcu-ESP8266-on-Arduino-IDE/
 * ESP8266 Arduino Core’s documentation https://arduino-esp8266.readthedocs.io
- 
+
+* ESP8266 Arduino setup guid by easyIOT https://iot-playground.com/blog/2-uncategorised/67-arduino-esp8266-ide 
 
 
 # Quick-Notes
@@ -58,15 +59,27 @@ Be aware: Input voltage range of bare ESP8266 is 0—1.0V. The operating Voltage
 
 ## 02 web example (easyIOT-cloud.com)   
 
-**_¡Work in Progress!_ still putting things together (june.2019)**
+EasyIotCloud https://easyiot-cloud.com/ is a free of charge IOT online plattform, offering an Arudino library to send and receive data tru an RestApi. EasyIOT-Could comes in quite handy for storing and displaying data. Remote controlling outputs. Or being used as a bridge between an input and an output device.   
 
-### 02_web_graph
+Further tutorials and guidance can be found here: https://iot-playground.com/build
+
+You can dowload the arduino library here: https://iot-playground.com/blog/2-uncategorised/67-arduino-esp8266-ide
+
+
+### a_EasyIotCloud_button
+reading the onboard button input (D3 / GPIO 0) and sending »button pressed« to EasyIotCloud https://easyiot-cloud.com/ 
+
+![easyIOT-cloud website showing a LDR sensor recording](https://raw.githubusercontent.com/cirg-io/Arduino-ESP8266-NodeMCU/master/images/sampleData_button.png)
+
+
+### b_EasyIotCloud_ldr
 --> reading in a LDR analog Sensor 
 --> sending LDR sensor value to a web server
 --> server receives the data via a php script and stores it to a text file 
 --> using php to draw a simple graph 
 
-![webpage example showing the graph](https://raw.githubusercontent.com/cirg-io/Arduino-ESP8266-NodeMCU/master/images/externalWebpage_ldrData_moreData.png)
+![easyIOT-cloud website showing a LDR sensor recording](https://raw.githubusercontent.com/cirg-io/Arduino-ESP8266-NodeMCU/master/images/sampleData_ldr_01.png)
+
 
 ## Copyleft
 
