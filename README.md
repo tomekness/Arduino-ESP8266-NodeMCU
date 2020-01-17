@@ -59,7 +59,7 @@ Be aware: Input voltage range of bare ESP8266 is 0—1.0V. The operating Voltage
 
 ## 02 web example (easyIOT-cloud.com)   
 
-EasyIotCloud https://easyiot-cloud.com/ is a free of charge IOT online plattform, offering an Arudino library to send and receive data tru an RestApi. EasyIOT-Could comes in quite handy for storing and displaying data. Remote controlling outputs. Or being used as a bridge between an input and an output device.   
+EasyIotCloud https://easyiot-cloud.com/ is a free of charge IOT online plattform, offering an Arudino library to send and receive data tru an RestApi. EasyIOT-Could is very convenient for storing and displaying data, Remote controlling outputs,or being used as a bridge between an input and an output device.   
 
 Further tutorials and guidance can be found here: https://iot-playground.com/build
 
