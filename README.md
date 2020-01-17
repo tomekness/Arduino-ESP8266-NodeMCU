@@ -69,14 +69,11 @@ You can dowload the arduino library here: https://iot-playground.com/blog/2-unca
 ### a_EasyIotCloud_button
 reading the onboard button input (D3 / GPIO 0) and sending »button pressed« to EasyIotCloud https://easyiot-cloud.com/ 
 
-![easyIOT-cloud website showing a LDR sensor recording](https://raw.githubusercontent.com/cirg-io/Arduino-ESP8266-NodeMCU/master/images/sampleData_button.png)
+![easyIOT-cloud website showing a button recording](https://raw.githubusercontent.com/cirg-io/Arduino-ESP8266-NodeMCU/master/images/sampleData_button.png)
 
 
 ### b_EasyIotCloud_ldr
---> reading in a LDR analog Sensor 
---> sending LDR sensor value to a web server
---> server receives the data via a php script and stores it to a text file 
---> using php to draw a simple graph 
+Sending value of the analogInput pin (ADC / A0) to EasyIotCloud https://easyiot-cloud.com/--> sending LDR sensor value to a web server
 
 ![easyIOT-cloud website showing a LDR sensor recording](https://raw.githubusercontent.com/cirg-io/Arduino-ESP8266-NodeMCU/master/images/sampleData_ldr_01.png)
 
