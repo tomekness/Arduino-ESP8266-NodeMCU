@@ -56,7 +56,7 @@ Be aware: Input voltage range of bare ESP8266 is 0—1.0V. The operating Voltage
 ![LDR webpage](https://raw.githubusercontent.com/cirg-io/Arduino-ESP8266-NodeMCU/master/images/LDR_example.png)
 
 
-## 02 web server 
+## 02 web example (easyIOT-cloud.com)   
 
 **_¡Work in Progress!_ still putting things together (june.2019)**
 
