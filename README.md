@@ -15,6 +15,8 @@ We also recommend checking out the following links to get you into it:
 
 # Quick-Notes
 
+Node MCU driver: https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers
+
 Add ESP8266 as Additional Boards to your Arduino IDE
 
 ![Arduino adding boards](https://raw.githubusercontent.com/cirg-io/Arduino-ESP8266-NodeMCU/master/images/Arduino_addBoards.png)
